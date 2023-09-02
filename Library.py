@@ -311,7 +311,4 @@ if __name__ == "__main__":
     current_account = None
     Automatic()
     homescreen()
-    #username
-    #Add dummy class which they are free to use
-    #Bigger gap in the print statements
     pass
