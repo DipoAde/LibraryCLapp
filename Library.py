@@ -287,6 +287,37 @@ def logout():
     homescreen()
     pass
 
+
+"""
+Default Dictionaries
+
+User.UserBase["Didaade"] = {'first_name': "Dipo",
+                            'last_name':"Ade",
+                            'email':"email", 
+                            'password': "password" }
+
+
+Book_Archive.archive[book_ID("running", "1")] = {'title' : "running", 
+                                        'book_number' : "1",
+                                        'image': "na", 
+                                        'description': "Great adventure tail"
+                                        }
+Book_Archive.archive[book_ID("walking", "1")] = {'title' : "walking", 
+                                        'book_number' : "1",
+                                        'image': "na", 
+                                        'description': "Great adventure tail"
+                                        }
+
+Book_Archive.borrowed_books_dictionary[book_ID("swimming","1")] = {'title': "swimming",
+                                                                'first_name': "Dipo", 
+                                                                'last_name': "Ade",
+                                                                'email': "email",
+                                                                'return_date': datetime.today().strftime('%Y-%m-%d')
+                                                                }
+
+
+"""
+
         
 
 
