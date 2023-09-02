@@ -144,11 +144,10 @@ def options(user):
               Borrow book,
               Return book,
               Logout,
-              Exit 
               """)
         choice = input("What would you like to do?:")
         choice_list = ["View all books","View available books","View books due today","View books loaned out",
-                       "Borrow book","Return book","Logout","Exit"]
+                       "Borrow book","Return book","Logout"]
         while choice not in choice_list:
             choice = input("Please choose a valid choice from the list:")
         if choice == "View all books":
@@ -169,8 +168,6 @@ def options(user):
             return_book(title, book_number)
         elif choice == "Logout":
             logout()
-        elif choice == "Exit":
-            exit()
 
 
 
@@ -289,11 +286,6 @@ def logout():
     current_account = None
     homescreen()
     pass
-
-
-def exit():
-    print("""Thank you for using the app. 
-          Come back soon.""")
 
         
 
